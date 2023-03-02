@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Attendece Form</h1><br>
+        <form action="form.php">
+            <h3>Enter Your Email Aaddress</h3>
+
+            <input type="email" name="email" id="email" pattern=".+@globex\.com" placeholder="qqwrtyuioXXX@gmail.com"
+                required><br><br>
+
+            <h3>Enter Your name</h3>
+            <input type="text" placeholder="LastName-FirstName-MiddleName"><br><br>
+
+            <h3>Enter Your Roll Number</h3>
+            <input type="number" placeholder="XXX" mmin="1" max="82"><br><br>
+
+            <h3>Select Subject</h3>
+            <select name="subject" id="subject">
+                <option value="___Please Choose an Option___">___Please Choose an Option___</option>
+
+                <option value="Math-III">Math-III</option>
+                <option value="Processre Architecture">Processre Architecture</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Computer Graphics">Computer Graphics</option>
+                <option value="Database management system">Database management system</option>
+
+
+            </select>
+
+            <h3>Enter Attendece for Theory or Practical and Select batch</h3>
+            <input type="text" placeholder="Theory or Practical"><br>
+            <label for="S1">
+
+                <ol type="1">
+                    <li>
+
+                        <input type="radio" name="batch" id="S1" value="Batch S1">S1
+                    </li>
+
+            </label>
+            <label for="S2">
+
+                <li>
+                    <input type="radio" name="batch" id="S2" value="Batch S2">S2
+
+                </li>
+
+            </label>
+            <label for="S3">
+
+                <li>
+                    <input type="radio" name="batch" id="S3" value="Batch S3">S3
+
+                </li>
+
+            </label>
+            <label for="S4">
+
+                <li>
+                    <input type="radio" name="batch" id="S4" value="Batch S4">S4
+
+                </li>
+                </ol><br><br>
+                <h3>Tell as Your Feedback</h3>
+                <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="Feedback"></textarea><br><br>
+            </label>
+
+            <input type="submit" name="submit" id="submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
